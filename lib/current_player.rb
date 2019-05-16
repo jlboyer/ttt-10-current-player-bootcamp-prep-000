@@ -1,5 +1,5 @@
 def turn_count(board)
-  count = 0
+  count = 1
   board.each do |value|
     if value == "X" || value == "O"
       count += 1
